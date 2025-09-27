@@ -1,16 +1,16 @@
 {
-  "name": "realestatetalk-sms-server",
+  "name": "ret-sms-server",
   "version": "1.0.0",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node index.js",
-    "dev": "NODE_ENV=development node index.js"
+    "start": "node index.js"
   },
+  "engines": { "node": "20.x" },
   "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^17.2.2",
     "express": "^4.19.2",
-    "telnyx": "^4.13.0"
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "telnyx": "latest"
   }
 }
